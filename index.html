@@ -1,36 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="sv">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TonaPhoto</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-    <header>
-        <nav>
-            <img src="assets/tona_logo_white.png" alt="">
+  <header>
+    <nav>
+      <img src="assets/tona_logo_white.png" alt="TonaPhoto" />
+      <ul>
+        <li>Portfolio</li>
+        <li>Boka möte</li>
+      </ul>
+    </nav>
+  </header>
 
-            <ul>
-                <li>portfolio</li>
-                <li>boka möte</li>
-            </ul>
-        </nav>
-    </header>
+  <section id="hero">
 
-    <section id="hero">
-        <div>
-            <h1>Fånga nästa</h1>
-            <span>Bröllop</span>
+    <div class="bg-slide active">
+      <img src="assets/brollop.webp" alt="Bröllop" />
+    </div>
+    <div class="bg-slide">
+      <img src="assets/drone.webp" alt="Drönarvy" />
+    </div>
+    <div class="bg-slide">
+      <img src="assets/event.webp" alt="Event" />
+    </div>
+    <div class="bg-slide">
+      <img src="assets/hus.webp" alt="Mäklarbild" />
+    </div>
 
-            <h2>Foto Film Drönare & 360</h2>
-            <h2>TonaPhoto</h2>
-        </div>
-    </section>
-    
+    <div class="hero-content">
+      <h1>Fånga nästa</h1>
+      <span id="word-wrap">
+        <span id="word-inner"></span>
+      </span>
+      <h2>Foto Film Drönare &amp; 360</h2>
+      <h2>TonaPhoto</h2>
+    </div>
 
-    <script src="script.js"></script>
+    <div id="dots"></div>
+
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
