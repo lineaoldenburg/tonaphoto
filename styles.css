@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+  background-color: black;
+  position: fixed;
+  width: 100dvw;
+  width: 100vw;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+
+  img {
+  }
+
+  ul {
+    display: flex;
+    gap: 12px;
+
+    li {
+      list-style: none;
+      padding: 0;
+      color: white;
+    }
+  }
+}
